@@ -1,6 +1,14 @@
 class UsersController < ApplicationController
+  before_action :logged_in_user, only: [:index, :edit, :update]
+  before_action :find_user, except: [:index, :new, :create]
+  before_action :correct_user, only: [:edit, :update]
+  before_action :verify_admin, only: :destroy
+
+  def index
+    @users = User.paginate page: params[:page]
+  end
+
   def show
-    @user = User.find_by id: params[:id]
     unless @user
       flash[:danger] = "User not exist"
       redirect_to root_url
@@ -22,9 +30,54 @@ class UsersController < ApplicationController
     end
   end
 
+  def edit
+  end
+
+  def update
+    if @user.update_attributes user_params
+      flash[:success] = "Profile updated"
+      redirect_to @user
+    else
+      render :edit
+    end
+  end
+
+  def destroy
+    @user.destroy
+    flash[:success] = "User deleted"
+    redirect_to users_url
+  end
+
+  def logged_in_user
+    unless logged_in?
+      store_location
+      flash[:danger] = "Please log in."
+      redirect_to login_url
+    end
+  end
+
+  def correct_user
+    unless @user.current_user? current_user
+      flash[:danger] = "Your can't edit other user's infomation"
+      redirect_to root_url
+    end
+  end
+
+  def find_user
+    @user = User.find_by id: params[:id]
+    if @user.nil?
+      flash[:danger] = "User not found"
+      redirect_to root_path
+    end
+  end
+
   private
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
+  end
+
+  def verify_admin
+    redirect_to root_url unless current_user.admin?
   end
 end
