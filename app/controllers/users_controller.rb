@@ -9,10 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    unless @user
-      flash[:danger] = "User not exist"
-      redirect_to root_url
-    end
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def new
@@ -46,14 +43,6 @@ class UsersController < ApplicationController
     @user.destroy
     flash[:success] = "User deleted"
     redirect_to users_url
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = "Please log in."
-      redirect_to login_url
-    end
   end
 
   def correct_user
