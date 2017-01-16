@@ -7,6 +7,7 @@ class Micropost < ApplicationRecord
   validates :user_id, presence: true
   validates :content, presence: true, length: {maximum: 140}
 
+  scope :feeds, -> user_ids {where user_id: user_ids}
   scope :order_desc, -> {order created_at: :desc}
 
   private
