@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='app/helpers/static_pages_helper.rb'/>
+  <file name='app/helpers/users_helper.rb'>
+    <error line='2' column='18' severity='info' message='Use def without parentheses.' source='com.puppycrawl.tools.checkstyle.Style/MethodDefParentheses'/>
+    <error line='3' column='29' severity='info' message='Do not use `::` for method calls.' source='com.puppycrawl.tools.checkstyle.Style/ColonMethodCall'/>
+  </file>
+  <file name='app/helpers/sessions_helper.rb'/>
+  <file name='app/helpers/application_helper.rb'/>
+  <file name='app/controllers/account_activations_controller.rb'/>
+  <file name='app/controllers/application_controller.rb'>
+    <error line='7' column='4' severity='info' message='Use a guard clause instead of wrapping the code inside a conditional expression.' source='com.puppycrawl.tools.checkstyle.Style/GuardClause'/>
+  </file>
+  <file name='app/controllers/password_resets_controller.rb'>
+    <error line='5' column='0' severity='info' message='Trailing whitespace detected.' source='com.puppycrawl.tools.checkstyle.Style/TrailingWhitespace'/>
+    <error line='50' column='4' severity='info' message='Use a guard clause instead of wrapping the code inside a conditional expression.' source='com.puppycrawl.tools.checkstyle.Style/GuardClause'/>
+    <error line='51' column='6' severity='info' message='Align the operands of a condition in an `unless` statement spanning multiple lines.' source='com.puppycrawl.tools.checkstyle.Style/MultilineOperationIndentation'/>
+    <error line='57' column='4' severity='info' message='Use a guard clause instead of wrapping the code inside a conditional expression.' source='com.puppycrawl.tools.checkstyle.Style/GuardClause'/>
+  </file>
+  <file name='app/controllers/microposts_controller.rb'/>
+  <file name='app/controllers/sessions_controller.rb'>
+    <error line='5' column='2' severity='info' message='Assignment Branch Condition size for create is too high. [25.06/20]' source='com.puppycrawl.tools.checkstyle.Metrics/AbcSize'/>
+  </file>
+  <file name='app/controllers/static_pages_controller.rb'>
+    <error line='3' column='4' severity='info' message='Use a guard clause instead of wrapping the code inside a conditional expression.' source='com.puppycrawl.tools.checkstyle.Style/GuardClause'/>
+  </file>
+  <file name='app/controllers/users_controller.rb'>
+    <error line='12' column='25' severity='info' message='Use `&amp;&amp;` instead of `and`.' source='com.puppycrawl.tools.checkstyle.Style/AndOr'/>
+    <error line='14' column='4' severity='info' message='Use a guard clause instead of wrapping the code inside a conditional expression.' source='com.puppycrawl.tools.checkstyle.Style/GuardClause'/>
+    <error line='16' column='8' severity='info' message='Use 2 (not -10) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Style/IndentationWidth'/>
+    <error line='17' column='6' severity='info' message='Align `else` with `if`.' source='com.puppycrawl.tools.checkstyle.Style/ElseAlignment'/>
+    <error line='19' column='6' severity='warning' message='`end` at 19, 6 is not aligned with `if` at 15, 18.' source='com.puppycrawl.tools.checkstyle.Lint/EndAlignment'/>
+    <error line='57' column='4' severity='info' message='Use a guard clause instead of wrapping the code inside a conditional expression.' source='com.puppycrawl.tools.checkstyle.Style/GuardClause'/>
+    <error line='65' column='4' severity='info' message='Use a guard clause instead of wrapping the code inside a conditional expression.' source='com.puppycrawl.tools.checkstyle.Style/GuardClause'/>
+    <error line='70' column='0' severity='info' message='Trailing whitespace detected.' source='com.puppycrawl.tools.checkstyle.Style/TrailingWhitespace'/>
+  </file>
+  <file name='app/controllers/relationships_controller.rb'>
+    <error line='20' column='8' severity='info' message='Use 2 (not 0) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Style/IndentationWidth'/>
+    <error line='20' column='19' severity='info' message='Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Style/SpaceBeforeBlockBraces'/>
+    <error line='22' column='8' severity='warning' message='`end` at 22, 8 is not aligned with `respond_to do |format|` at 19, 6.' source='com.puppycrawl.tools.checkstyle.Lint/BlockAlignment'/>
+    <error line='32' column='4' severity='info' message='Use 2 (not 0) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Style/IndentationWidth'/>
+    <error line='34' column='6' severity='info' message='Use 2 (not 0) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Style/IndentationWidth'/>
+    <error line='34' column='17' severity='info' message='Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Style/SpaceBeforeBlockBraces'/>
+    <error line='36' column='6' severity='warning' message='`end` at 36, 6 is not aligned with `respond_to do |format|` at 33, 4.' source='com.puppycrawl.tools.checkstyle.Lint/BlockAlignment'/>
+  </file>
+  <file name='app/channels/application_cable/channel.rb'/>
+  <file name='app/channels/application_cable/connection.rb'/>
+  <file name='app/uploaders/picture_uploader.rb'/>
+  <file name='app/jobs/application_job.rb'/>
+  <file name='app/mailers/application_mailer.rb'/>
+  <file name='app/mailers/user_mailer.rb'/>
+  <file name='app/models/micropost.rb'>
+    <error line='6' column='10' severity='info' message='Put one space between the method name and the first argument.' source='com.puppycrawl.tools.checkstyle.Style/SingleSpaceBeforeFirstArg'/>
+    <error line='10' column='19' severity='info' message='Wrap stabby lambda arguments with parentheses.' source='com.puppycrawl.tools.checkstyle.Style/StabbyLambdaParentheses'/>
+    <error line='10' column='27' severity='info' message='Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Style/SpaceBeforeBlockBraces'/>
+    <error line='11' column='23' severity='info' message='Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Style/SpaceBeforeBlockBraces'/>
+    <error line='16' column='4' severity='info' message='Use a guard clause instead of wrapping the code inside a conditional expression.' source='com.puppycrawl.tools.checkstyle.Style/GuardClause'/>
+    <error line='16' column='4' severity='info' message='Favor modifier `if` usage when having a single-line body. Another good alternative is the usage of control flow `&amp;&amp;`/`||`.' source='com.puppycrawl.tools.checkstyle.Style/IfUnlessModifier'/>
+  </file>
+  <file name='app/models/user.rb'>
+    <error line='23' column='22' severity='info' message='Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Style/SpaceBeforeBlockBraces'/>
+    <error line='27' column='13' severity='info' message='Avoid multi-line ?: (the ternary operator); use `if`/`unless` instead.' source='com.puppycrawl.tools.checkstyle.Style/MultilineTernaryOperator'/>
+  </file>
+  <file name='app/models/relationship.rb'>
+    <error line='1' column='2' severity='info' message='Indentation of first line in file detected.' source='com.puppycrawl.tools.checkstyle.Style/InitialIndentation'/>
+    <error line='2' column='2' severity='info' message='Use 2 (not 0) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Style/IndentationWidth'/>
+    <error line='7' column='0' severity='warning' message='`end` at 7, 0 is not aligned with `class` at 1, 2.' source='com.puppycrawl.tools.checkstyle.Lint/EndAlignment'/>
+  </file>
+  <file name='app/models/application_record.rb'/>
+</checkstyle>

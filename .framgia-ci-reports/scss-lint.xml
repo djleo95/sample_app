@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="1.5.6">
+  <file name="/home/justakiss/Ruby/sample_app/app/assets/stylesheets/application.css">
+    <error source="Comment" line="1" column="1" length="3" severity="warning" message="Use `//` comments everywhere" />
+  </file>
+  <file name="/home/justakiss/Ruby/sample_app/app/assets/stylesheets/custom.scss">
+    <error source="StringQuotes" line="1" column="9" length="21" severity="warning" message="Prefer single quoted strings" />
+    <error source="StringQuotes" line="2" column="9" length="11" severity="warning" message="Prefer single quoted strings" />
+    <error source="NameFormat" line="6" column="1" length="18" severity="warning" message="Name of mixin `box_sizing` should be written in all lowercase letters with hyphens instead of underscores" />
+    <error source="VendorPrefix" line="7" column="3" length="27" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="8" column="3" length="30" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="26" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SingleLinePerSelector" line="31" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SingleLinePerSelector" line="31" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SingleLinePerSelector" line="31" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SingleLinePerSelector" line="31" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SingleLinePerSelector" line="31" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="PropertySortOrder" line="43" column="3" length="16" severity="warning" message="Properties should be ordered color, font-size, font-weight, letter-spacing, margin-bottom, text-align" />
+    <error source="IdSelector" line="56" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="PropertySortOrder" line="57" column="3" length="11" severity="warning" message="Properties should be ordered color, float, font-size, font-weight, letter-spacing, margin-right, padding-top, text-transform" />
+    <error source="ColorKeyword" line="60" column="10" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="60" column="10" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="65" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="ColorKeyword" line="66" column="12" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="66" column="12" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="72" column="3" length="16" severity="warning" message="Properties should be ordered border-top, color, margin-top, padding-top" />
+    <error source="EmptyLineBetweenBlocks" line="76" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="78" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="81" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="84" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="88" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SelectorFormat" line="95" column="1" length="1" severity="warning" message="Selector `debug_dump` should be written in lowercase with hyphens" />
+    <error source="PropertySortOrder" line="98" column="3" length="11" severity="warning" message="Properties should be ordered clear, float, margin-top, width" />
+    <error source="DeclarationOrder" line="100" column="1" length="1" severity="warning" message="Expected item on line 100 to appear before line 96. Rule sets should be ordered as follows: `@extends`, `@includes` without `@content`, properties, `@includes` with `@content`, nested rule sets" />
+    <error source="NameFormat" line="100" column="3" length="19" severity="warning" message="Name of mixin `box_sizing` should be written in all lowercase letters with hyphens instead of underscores" />
+    <error source="QualifyingElement" line="104" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="SelectorFormat" line="104" column="1" length="1" severity="warning" message="Selector `user_info` should be written in lowercase with hyphens" />
+    <error source="EmptyLineBetweenBlocks" line="106" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="MergeableSelector" line="107" column="1" length="1" severity="warning" message="Merge rule `section` with rule on line 104" />
+    <error source="PropertySortOrder" line="108" column="5" length="15" severity="warning" message="Properties should be ordered margin-top, padding" />
+    <error source="EmptyLineBetweenBlocks" line="110" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="113" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="116" column="7" length="18" severity="warning" message="Properties should be ordered display, line-height, margin-bottom" />
+    <error source="EmptyLineBetweenBlocks" line="118" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="121" column="7" length="16" severity="warning" message="Properties should be ordered font-size, letter-spacing, margin-bottom, margin-top, text-align" />
+    <error source="ZeroUnit" line="124" column="19" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="SelectorFormat" line="134" column="1" length="1" severity="warning" message="Selector `gravatar_edit` should be written in lowercase with hyphens" />
+    <error source="MergeableSelector" line="138" column="1" length="1" severity="warning" message="Merge rule `.gravatar` with rule on line 129" />
+    <error source="MergeableSelector" line="143" column="1" length="1" severity="warning" message="Merge rule `.gravatar_edit` with rule on line 134" />
+    <error source="SelectorFormat" line="143" column="1" length="1" severity="warning" message="Selector `gravatar_edit` should be written in lowercase with hyphens" />
+    <error source="PropertySortOrder" line="148" column="3" length="14" severity="warning" message="Properties should be ordered margin-top, overflow, padding" />
+    <error source="EmptyLineBetweenBlocks" line="151" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="PropertySortOrder" line="152" column="5" length="11" severity="warning" message="Properties should be ordered border-left, color, float, padding" />
+    <error source="ColorKeyword" line="155" column="12" length="4" severity="warning" message="Color `gray` should be written in hexadecimal form as `#808080`" />
+    <error source="ColorVariable" line="155" column="12" length="4" severity="warning" message="Color literals like `gray` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="156" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="PropertySortOrder" line="157" column="7" length="15" severity="warning" message="Properties should be ordered border, padding-left" />
+    <error source="EmptyLineBetweenBlocks" line="159" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="161" column="7" length="21" severity="warning" message="Properties should be ordered color, text-decoration" />
+    <error source="ColorKeyword" line="162" column="14" length="4" severity="warning" message="Color `blue` should be written in hexadecimal form as `#0000ff`" />
+    <error source="ColorVariable" line="162" column="14" length="4" severity="warning" message="Color literals like `blue` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="164" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorFormat" line="170" column="1" length="1" severity="warning" message="Selector `user_avatars` should be written in lowercase with hyphens" />
+    <error source="PropertySortOrder" line="171" column="3" length="14" severity="warning" message="Properties should be ordered margin-top, overflow" />
+    <error source="EmptyLineBetweenBlocks" line="173" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="Shorthand" line="174" column="13" length="7" severity="warning" message="Shorthand form for property `margin` should be written more concisely as `1px` instead of `1px 1px`" />
+    <error source="EmptyLineBetweenBlocks" line="175" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SingleLinePerSelector" line="185" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SingleLinePerSelector" line="185" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SingleLinePerSelector" line="185" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="ColorVariable" line="186" column="11" length="14" severity="warning" message="Color literals like `#bbb` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="187" column="3" length="11" severity="warning" message="Properties should be ordered border, margin-bottom, width" />
+    <error source="DeclarationOrder" line="189" column="1" length="1" severity="warning" message="Expected item on line 189 to appear before line 186. Rule sets should be ordered as follows: `@extends`, `@includes` without `@content`, properties, `@includes` with `@content`, nested rule sets" />
+    <error source="NameFormat" line="189" column="3" length="19" severity="warning" message="Name of mixin `box_sizing` should be written in all lowercase letters with hyphens instead of underscores" />
+    <error source="ImportantRule" line="193" column="3" length="23" severity="warning" message="!important should not be used" />
+    <error source="IdSelector" line="196" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="SelectorFormat" line="196" column="1" length="1" severity="warning" message="Selector `error_explanation` should be written in lowercase with hyphens" />
+    <error source="ColorKeyword" line="197" column="10" length="3" severity="warning" message="Color `red` should be written in hexadecimal form as `#ff0000`" />
+    <error source="ColorVariable" line="197" column="10" length="3" severity="warning" message="Color literals like `red` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="198" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="ColorKeyword" line="199" column="12" length="3" severity="warning" message="Color `red` should be written in hexadecimal form as `#ff0000`" />
+    <error source="ColorVariable" line="199" column="12" length="3" severity="warning" message="Color literals like `red` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Shorthand" line="200" column="13" length="10" severity="warning" message="Shorthand form for property `margin` should be written more concisely as `0 0 30px` instead of `0 0 30px 0`" />
+    <error source="SelectorFormat" line="204" column="1" length="1" severity="warning" message="Selector `field_with_errors` should be written in lowercase with hyphens" />
+    <error source="PlaceholderInExtend" line="205" column="3" length="18" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="EmptyLineBetweenBlocks" line="206" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="PropertySortOrder" line="212" column="3" length="17" severity="warning" message="Properties should be ordered margin-bottom, margin-top" />
+    <error source="EmptyLineBetweenBlocks" line="214" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="PropertySortOrder" line="215" column="5" length="17" severity="warning" message="Properties should be ordered font-weight, margin-left" />
+    <error source="IdSelector" line="220" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="SelectorFormat" line="220" column="1" length="1" severity="warning" message="Selector `session_remember_me` should be written in lowercase with hyphens" />
+    <error source="PropertySortOrder" line="221" column="3" length="11" severity="warning" message="Properties should be ordered margin-left, width" />
+    <error source="MergeableSelector" line="225" column="1" length="1" severity="warning" message="Merge rule `.users` with rule on line 181" />
+    <error source="EmptyLineBetweenBlocks" line="228" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="PropertySortOrder" line="229" column="5" length="14" severity="warning" message="Properties should be ordered border-bottom, overflow, padding" />
+    <error source="EmptyLineBetweenBlocks" line="238" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="PropertySortOrder" line="239" column="5" length="15" severity="warning" message="Properties should be ordered border-top, padding" />
+    <error source="ColorVariable" line="240" column="17" length="17" severity="warning" message="Color literals like `#e8e8e8` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="241" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="245" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="249" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="253" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="258" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="MergeableSelector" line="266" column="1" length="1" severity="warning" message="Merge rule `aside` with rule on line 103" />
+    <error source="QualifyingElement" line="273" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="EmptyLineBetweenBlocks" line="275" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+  </file>
+</checkstyle>

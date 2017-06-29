@@ -1,0 +1,37 @@
+Updating ruby-advisory-db ...
+Already up-to-date.
+Updated ruby-advisory-db
+ruby-advisory-db: 287 advisories
+Name: nokogiri
+Version: 1.7.0
+Advisory: CVE-2016-4658
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/issues/1615
+Title: Nokogiri gem contains several vulnerabilities in libxml2 and libxslt
+Solution: upgrade to >= 1.7.1
+
+Name: nokogiri
+Version: 1.7.0
+Advisory: CVE-2017-5029
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/issues/1634
+Title: Nokogiri gem contains two upstream vulnerabilities in libxslt 1.1.29
+Solution: upgrade to >= 1.7.2
+
+Name: nokogiri
+Version: 1.7.0
+Advisory: CVE-2016-4658
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/issues/1615
+Title: Nokogiri gem contains several vulnerabilities in libxml2 and libxslt
+Solution: upgrade to >= 1.7.1
+
+Name: nokogiri
+Version: 1.7.0
+Advisory: CVE-2017-5029
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/issues/1634
+Title: Nokogiri gem contains two upstream vulnerabilities in libxslt 1.1.29
+Solution: upgrade to >= 1.7.2
+
+Vulnerabilities found!
